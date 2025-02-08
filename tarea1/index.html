@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agente Aspiradora Simple</title>
+    <style>
+        /* Estilo para la página */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Estilo para el contenedor principal */
+        #log {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 800px;
+            overflow-y: auto;
+            height: 70vh;
+            font-size: 18px;
+            color: #333;
+            line-height: 1.6;
+            white-space: pre-wrap;
+        }
+
+        /* Títulos de los logs */
+        #log b {
+            color: #007BFF;
+        }
+
+        /* Estilo para los botones (si se agregan) */
+        button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        /* Estilo para los logs de acción */
+        #log br {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="log">
+        <h1>Agente aspiradora</h1>
+        <button> Repositorio/codigo </button>
+        <!-- Aquí se mostrarán los logs de las acciones -->
+    </div>
+    <script type="text/javascript" src="cleaner.js"></script>
+</body>
+
+</html>
